@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+#oktober{
+    display: flex;
+    justify-content: left;
+    border-bottom:1px solid black;
+}
+
+#logo{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: left;
+}
+
+/*DROPDOWN MENU*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    margin-right: 100px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: white;
+    min-width: 800px;
+    z-index: 1;
+    border: 1px black solid; 
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover{
+    text-decoration: none;
+    color: rgb(168, 124, 124);
+}
+
+/*MAIN*/
+main{
+    margin-top: 102px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/*KASSE MED PROFIL AF HANNAH*/
+.sectionet img{
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*REDIGERING AF SKRIFT OG OVERSKRIFTER*/
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19pt;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/*KASSE MED TRE BILLEDER OG ARTIKLER*/
+.sectionto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 900px;
+}
+
+.sectionto div{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*KASSE MED TO BILLEDER OG ARTIKLER */
+.sectiontre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 900px;
+}
+
+.sectiontre div{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px rgb(0, 0, 0) solid;
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
