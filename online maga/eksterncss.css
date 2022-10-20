@@ -96,56 +96,36 @@ main{
     padding-right: 150px;
 }
 
-/*KASSE MED PROFIL AF HANNAH*/
-.sectionet img{
-    margin-top: 50px;
-    padding-left: 150px;
-}
 
 /*REDIGERING AF SKRIFT OG OVERSKRIFTER*/
 h2{
     text-align: center;
     font-family: "Bebas Neue";
-    font-size: 22pt;
+    font-size: 19pt;
     margin-bottom: 25px;
     margin-top: 25px;
     letter-spacing: 1px;
 }
 
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Gruppo";
     font-size: 12pt;
     line-height: 30px;
+    font-weight: 550;
+
+}
+
+h4{
+    font-size: 15pt;
+    font-family: "Bebas Neue";
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+.intro{
     text-align: center;
-}
-
-
-/*KASSE MED TRE BILLEDER OG ARTIKLER*/
-.sectionto{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    min-width: 900px;
-}
-
-.sectionto div{
-    width: 350px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-/*KASSE MED TO BILLEDER OG ARTIKLER */
-.sectiontre{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    min-width: 900px;
-}
-
-.sectiontre div{
-    width: 350px;
-    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
     margin-bottom: 50px;
 }
 
@@ -163,4 +143,14 @@ footer{
 footer p{
     font-family: "Gruppo";
     font-weight: 1000;
+}
+
+.hannahprofil{
+    padding-left: 150px;
+}
+
+/*BILLEDER I ARTIKLER */
+.billede img{
+    margin-top: 50px;
+    padding-left: 150px;
 }

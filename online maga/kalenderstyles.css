@@ -1,0 +1,33 @@
+.intro{
+    text-align: center;
+}
+
+.kasser{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 900px;
+
+    margin-bottom: 50px;
+    align-items: center;
+
+    width: 100%;
+}
+
+.kasser div{
+    padding: 50px;
+}
+
+.kasserto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 900px;
+
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.kasserto div{
+    padding: 50px;
+}
