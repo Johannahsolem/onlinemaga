@@ -111,7 +111,7 @@ p{
     font-family: "Gruppo";
     font-size: 12pt;
     line-height: 30px;
-    font-weight: 550;
+    font-weight: 600;
 
 }
 
@@ -143,10 +143,6 @@ footer{
 footer p{
     font-family: "Gruppo";
     font-weight: 1000;
-}
-
-.hannahprofil{
-    padding-left: 150px;
 }
 
 /*BILLEDER I ARTIKLER */

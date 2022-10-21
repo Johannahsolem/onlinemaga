@@ -113,10 +113,11 @@ h2{
 }
 
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Gruppo";
     font-size: 12pt;
     line-height: 30px;
     text-align: center;
+    font-weight: 600;
 }
 
 
